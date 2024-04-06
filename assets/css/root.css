@@ -51,10 +51,18 @@
     --para-text: #D0D0D5;
     --hpara-txt: #DBE1E9;
     --p-para: #CED1DF;
+    --ftr-para: #AFAFAF;
+    --lia: #C8C8C8;
 
 }
 
+.ftr_para {
+    color: var(--ftr-para);
+}
 
+.li-col{
+    color: var(--lia);
+}
 
 .bg-blue {
     background: var(--bg-section);
@@ -64,6 +72,9 @@
     color: var(--card-2);
 }
 
+.footer_h {
+    color: var(--card-dots);
+}
 
 .p_para {
     color: var(--p-para);
