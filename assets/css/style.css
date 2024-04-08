@@ -24,6 +24,10 @@
     font-family: "DM Sans", sans-serif;
 }
 
+.cursor_pointer {
+    cursor: pointer;
+}
+
 .para-text {
     color: var(--para-text);
 }
@@ -36,8 +40,23 @@
     max-width: 509px;
 }
 
+.line_hover::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    transition: all 400ms linear;
+    background: white;
+    bottom: -2px;
+    left: 0;
+}
+.line_hover:hover::after{
+    width: 100%;
+}
+
 .bg-blue {
-    background-color: var(--bg-section);
+    backdrop-filter: blur(12px);
+    background: var(--hero-bg);
 }
 
 .pb-40 {

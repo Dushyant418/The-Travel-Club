@@ -15,16 +15,12 @@ menuicon.addEventListener("click", () => {
 $('.slider_container').slick({
     dots: true,
     infinite: true,
-    dots: true,
-    infinite: true,
     arrows: false,
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplaySpeed: 0,
-    speed: 5000,
+    speed: 500,
     pauseOnHover: false,
-    cssEase: 'linear',
     responsive: [
         {
             breakpoint: 1024,
@@ -58,16 +54,12 @@ $('.slider_container').slick({
 $('.slider2_container').slick({
     dots: true,
     infinite: true,
-    dots: true,
-    infinite: true,
     arrows: false,
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplaySpeed: 0,
-    speed: 5000,
+    speed: 500,
     pauseOnHover: false,
-    cssEase: 'linear',
     responsive: [
         {
             breakpoint: 1024,
