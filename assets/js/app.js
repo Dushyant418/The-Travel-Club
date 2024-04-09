@@ -21,7 +21,6 @@ $('.slider_container').slick({
     slidesToScroll: 1,
     speed: 500,
     pauseOnHover: false,
-    centerMode: true,
     responsive: [
         {
             breakpoint: 1024,
@@ -36,14 +35,16 @@ $('.slider_container').slick({
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                centerMode: true,
             }
         },
         {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                centerMode: true,
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -61,7 +62,6 @@ $('.slider2_container').slick({
     slidesToScroll: 1,
     speed: 500,
     pauseOnHover: false,
-    centerMode: true,
     responsive: [
         {
             breakpoint: 1024,
@@ -76,14 +76,16 @@ $('.slider2_container').slick({
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                centerMode: true,
             }
         },
         {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                centerMode: true,
             }
         }
         // You can unslick at a given breakpoint now by adding:

@@ -65,11 +65,11 @@
 }
 
 .pb-96 {
-    padding-bottom: 96px;
+    padding-bottom: 40px;
 }
 
 .pb-65 {
-    padding-bottom: 65px;
+    padding-bottom: 50px;
 }
 
 .pt-44 {
@@ -89,7 +89,7 @@
 }
 
 .pt-140 {
-    padding-top: 140px;
+    padding-top: 50px;
 }
 
 .pt-16 {
@@ -97,11 +97,11 @@
 }
 
 .pt-106 {
-    padding-top: 106px;
+    padding-top: 50px;
 }
 
 .pt-160 {
-    padding-top: 160px;
+    padding-top: 50px;
 }
 
 .mb-22 {
@@ -113,11 +113,11 @@
 }
 
 .pb-130 {
-    padding-bottom: 130px;
+    padding-bottom: 50px;
 }
 
 .pt-110 {
-    padding-top: 110px;
+    padding-top: 50px;
 }
 
 .pt-20 {
@@ -185,7 +185,7 @@
 }
 
 .pb-160 {
-    padding-bottom: 160px;
+    padding-bottom: 50px;
 }
 
 .w_564 {
@@ -320,9 +320,14 @@
     border: 1px solid var(--hero-border);
     border-radius: 16px;
     max-width: 930px;
-    padding: 20px 40px 24px 40px;
+    padding: 15px 15px 15px 15px;
     backdrop-filter: blur(12px);
     background: var(--hero-bg);
+}
+
+.max-w-406 {
+    max-width: 406px;
+    max-height: 406px;
 }
 
 .input-box {
@@ -370,9 +375,6 @@
 .bg-dark-blue {
     background-color: var(--bg-section);
 }
-
-
-
 
 .accordion {
     max-width: 856px;
@@ -557,7 +559,7 @@
     right: 0;
 }
 
-.ellps_9{
+.ellps_9 {
     bottom: -150px;
     right: 0;
 }
@@ -619,4 +621,62 @@
     .blue-box {
         padding: 29px 50px 32px;
     }
+
+    .pt-140 {
+        padding-top: 140px;
+    }
+
+    .pb-65 {
+        padding-bottom: 65px;
+    }
+
+    .pt-110 {
+        padding-top: 110px;
+    }
+
+    .pb-130 {
+        padding-bottom: 130px;
+    }
+
+    .pt-106 {
+        padding-top: 106px;
+    }
+
+    .pt-160 {
+        padding-top: 160px;
+    }
+
+    .pb-96 {
+        padding-bottom: 96px;
+    }
+
+    .pb-160 {
+        padding-bottom: 160px;
+    }
+
+    .box {
+        border: 1px solid var(--hero-border);
+        border-radius: 16px;
+        max-width: 930px;
+        padding: 20px 40px 24px 40px;
+        backdrop-filter: blur(12px);
+        background: var(--hero-bg);
+    }
+}
+
+@media (max-width:992px) {
+    .pt-19 {
+        padding-top: 19px;
+    }
+
+    .pb-20 {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .pt-21 {
+        padding-top: 21px;
+    }
+
 }
