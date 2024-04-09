@@ -34,7 +34,7 @@ $('.slider_container').slick({
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 centerMode: true,
             }
@@ -75,7 +75,7 @@ $('.slider2_container').slick({
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 centerMode: true,
             }
