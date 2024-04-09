@@ -21,6 +21,7 @@ $('.slider_container').slick({
     slidesToScroll: 1,
     speed: 500,
     pauseOnHover: false,
+    centerMode: true,
     responsive: [
         {
             breakpoint: 1024,
@@ -60,6 +61,7 @@ $('.slider2_container').slick({
     slidesToScroll: 1,
     speed: 500,
     pauseOnHover: false,
+    centerMode: true,
     responsive: [
         {
             breakpoint: 1024,
