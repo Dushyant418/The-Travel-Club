@@ -2,7 +2,7 @@ const menuicon = document.querySelector(".menuicon");
 const menulist = document.querySelector(".menulist");
 const navlink = document.querySelectorAll(".nav-links")
 navlink.forEach(a => a.addEventListener("click", () => {
-    menulist.classList.toggle("show");
+    menulist.classList.remove("show");
     document.body.classList.remove("overflow-hidden");
     menuicon.classList.toggle("show");
 }))
@@ -20,7 +20,6 @@ $('.slider_container').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     speed: 500,
-    pauseOnHover: false,
     responsive: [
         {
             breakpoint: 1024,
@@ -61,7 +60,6 @@ $('.slider2_container').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     speed: 500,
-    pauseOnHover: false,
     responsive: [
         {
             breakpoint: 1024,
